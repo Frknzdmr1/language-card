@@ -1,0 +1,21 @@
+.CardList{
+    max-width: 350px;
+    margin: auto;
+    background: linear-gradient(45deg, #9fe6fa 40%, #45d7a1 40%, #45d7a1 55% ,#9fe6fa 55%);
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 8px;
+}
+
+.CardList > h1 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.CardList > .cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
